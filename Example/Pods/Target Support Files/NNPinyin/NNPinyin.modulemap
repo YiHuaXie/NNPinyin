@@ -1,0 +1,6 @@
+framework module NNPinyin {
+  umbrella header "NNPinyin-umbrella.h"
+
+  export *
+  module * { export * }
+}

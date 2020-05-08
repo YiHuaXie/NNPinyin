@@ -1,0 +1,6 @@
+framework module Pods_NNPinyin_Tests {
+  umbrella header "Pods-NNPinyin_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

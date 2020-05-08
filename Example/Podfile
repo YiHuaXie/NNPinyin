@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'NNPinyin_Example' do
+  pod 'NNPinyin', :path => '../'
+
+  target 'NNPinyin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
