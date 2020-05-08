@@ -18,10 +18,14 @@ public struct NNPinyinOutputFormat {
     public var letterType: LetterType
 
     public static var `default`: NNPinyinOutputFormat {
-        NNPinyinOutputFormat(toneType: .none, vCharType: .vCharacter, letterType: .lowercased)
+        NNPinyinOutputFormat()
     }
 
-    public init(toneType: ToneType, vCharType: VCharType, letterType: LetterType) {
+    public init(
+        toneType: ToneType = .none,
+        vCharType: VCharType = .vCharacter,
+        letterType: LetterType = .lowercased
+    ) {
         self.toneType = toneType
         self.vCharType = vCharType
         self.letterType = letterType
@@ -58,3 +62,4 @@ extension NNPinyinOutputFormat {
         case capitalized // 首字母大写
     }
 }
+

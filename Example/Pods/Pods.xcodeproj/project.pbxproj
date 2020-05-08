@@ -7,235 +7,226 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B1DABD3F645B87DF26BA4C972ACE34B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		0D9D1489BF91A64A71695ADE99F070B1 /* NNPinyin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C929282F7E01C65275EAC01B8C77D2DE /* NNPinyin-dummy.m */; };
-		31631F68C56BB9C5141F308DED28BFA2 /* Pods-NNPinyin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A147A0F2CECD7D981C03A822132FF66 /* Pods-NNPinyin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57EE32548A374F31C39BBE792F8D94E0 /* NNPinyinOutputFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33F1FB102B29315923616A5AE409DF /* NNPinyinOutputFormat.swift */; };
-		660BB3DB8AFA5DDE7CC3EF4F801BE2EB /* Pods-NNPinyin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF69844AFE7A2F0CF1721C1A57C40080 /* Pods-NNPinyin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BA9F67837B9D372499209FDF9CC0009 /* Pods-NNPinyin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C09178EFB313BA57E8B9400D177C2 /* Pods-NNPinyin_Tests-dummy.m */; };
-		7BD41D6C48DA15B834EE755079967847 /* String+NNPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD610EF0E4ED1560BFFD36DBEEF8C15D /* String+NNPinyin.swift */; };
-		87EE5FC54CF08C114B99708AA63B1140 /* NNPinyin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA12192FA39AB4C67B519E93697B761 /* NNPinyin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90963BC5291DBC5FAD08114F50D605BC /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09528BD647D25B17CEC40DDFE5671F0C /* unicode_to_hanyu_pinyin.txt */; };
-		9D4F837AF45E2EC21A0B9DC9B7FC8880 /* NNPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8CFF254E48761472A7AFF9B614BCB /* NNPinyin.swift */; };
-		BE747CDF8112525B8EF27081AC07FFA6 /* Pods-NNPinyin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EA8076208031BE1D65915E1EFCA7C4 /* Pods-NNPinyin_Example-dummy.m */; };
-		DE8EB3112609B6D4A97BC5D3C8F801BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		F405AB0502CE06EC73ABAECEBC4FFD5C /* NNPinyin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62BBC6ED08F5C8C893AB6FAB5667ACF7 /* NNPinyin.bundle */; };
-		FF7F5B86D30540A026C0C1ACD87816D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		03302E1D2A1E830125F6F331A2AA52A5 /* Pods-NNPinyin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F118DBE1760E6AA475E028DBA1B41 /* Pods-NNPinyin_Tests-dummy.m */; };
+		03E3E868F689FDF6B7514D6511AF604E /* NNPinyin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8741BFEA8E5D9F4942F6946371C94DDE /* NNPinyin-dummy.m */; };
+		443A9F5CFAE528354A27FD48D32E251F /* Pods-NNPinyin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5552AC2548E6224B5FCAD27B8C740E /* Pods-NNPinyin_Example-dummy.m */; };
+		5541D76417FE4E3150C651B1886302CA /* Pods-NNPinyin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB747D38F7317AA3364FE0CE1FDB534 /* Pods-NNPinyin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B6D129EA3CBFDD89E2489ABBBB9F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6678A86FFD6691B20A5C0572DFFDBCA8 /* NNPinyin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57D31882AB97B6182270906D401F50F6 /* NNPinyin.bundle */; };
+		7EAB2CAC8BE903FF7342529A32FE1E47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8233B389ADA607EEC56FD6F08AFA4E3E /* String+NNPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821930F2C4789CB1F1F5F8E2AECF493 /* String+NNPinyin.swift */; };
+		A400232371A588724711D10FE93D5772 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4432C74D95930C3F62DB1BEED62AC803 /* unicode_to_hanyu_pinyin.txt */; };
+		C2627DEBC76E26A3137012A588781B3B /* NNPinyin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E1B8048CAF4CDD362AA2B48702576 /* NNPinyin.swift */; };
+		CC3615218F8AEA3E4C63D5FA002D7ED1 /* Pods-NNPinyin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B99E2F0525B4ACE7889FC929DFABC16 /* Pods-NNPinyin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF0CEA38A314A5E4EEDFC44E4A0AB3C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F926558BC6C640B2EB315AF4A29BC768 /* NNPinyinOutputFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C97D6BE142F80F5FE6631FECE518881 /* NNPinyinOutputFormat.swift */; };
+		FE526A354D6A3929A150BF1104A411EA /* NNPinyin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD85A4F50DE3F8C3D452FD6478573A91 /* NNPinyin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3057B486F5AB7EC97A4DCCE276EFE8A2 /* PBXContainerItemProxy */ = {
+		0DB0E6F1FFB5A1A3EDBD0D2E73A10647 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 320BC14679C4C654CF634FF23EC913D4;
+			remoteGlobalIDString = D34DE74B700F8E2F2ACB4304DCAFB180;
 			remoteInfo = "Pods-NNPinyin_Example";
 		};
-		34AE17A708248B2F409D25FD474EDE16 /* PBXContainerItemProxy */ = {
+		2CC391AB32693A3C71483AA54AFD7AF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 78DC4278F830B237573661F30D45EE9F;
+			remoteGlobalIDString = 929B62F555A49C9554ACF4E7B20D89FA;
 			remoteInfo = "NNPinyin-NNPinyin";
 		};
-		E4AC5929BE384C812603121C9C788DA2 /* PBXContainerItemProxy */ = {
+		E1B564D85F0798C097CC38E59E308D38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BBE36B97909AB247E89B765505662042;
+			remoteGlobalIDString = 5D6839521A060EB61E9FF1F218E467FC;
 			remoteInfo = NNPinyin;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09528BD647D25B17CEC40DDFE5671F0C /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = unicode_to_hanyu_pinyin.txt; path = NNPinyin/Assets/unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
-		14AD578AEDD3D28ABC02A3D544923B3B /* NNPinyin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NNPinyin-Info.plist"; sourceTree = "<group>"; };
-		27F023F4EAB15A011B06ECDC4700E98B /* Pods_NNPinyin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NNPinyin_Tests.framework; path = "Pods-NNPinyin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		282772D14D9ABAE374BCFA9A67B3DAFB /* Pods-NNPinyin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNPinyin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		36601EB358E16524BA617E859E8DFB05 /* NNPinyin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NNPinyin.modulemap; sourceTree = "<group>"; };
-		3AA12192FA39AB4C67B519E93697B761 /* NNPinyin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNPinyin-umbrella.h"; sourceTree = "<group>"; };
-		3B50B5E53000D44E00FCF7FBDFA1D21D /* Pods_NNPinyin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NNPinyin_Example.framework; path = "Pods-NNPinyin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C8C09178EFB313BA57E8B9400D177C2 /* Pods-NNPinyin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NNPinyin_Tests-dummy.m"; sourceTree = "<group>"; };
-		3E39602D72A853DD2394624849DBB472 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4A147A0F2CECD7D981C03A822132FF66 /* Pods-NNPinyin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NNPinyin_Tests-umbrella.h"; sourceTree = "<group>"; };
-		56A376382146AAFA4452D31869EA0F0F /* Pods-NNPinyin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NNPinyin_Example.modulemap"; sourceTree = "<group>"; };
-		62BBC6ED08F5C8C893AB6FAB5667ACF7 /* NNPinyin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NNPinyin.bundle; path = "NNPinyin-NNPinyin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65B544ED015C11829C3D0A44C4F16495 /* Pods-NNPinyin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NNPinyin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71CB37F614702DA246D27C47A5BADDC1 /* Pods-NNPinyin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNPinyin_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7AB73A6F059DA4993AA46E6339F0535B /* Pods-NNPinyin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NNPinyin_Example-frameworks.sh"; sourceTree = "<group>"; };
-		851BFDD57269CFDAADF37634EDC1395B /* Pods-NNPinyin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNPinyin_Example.release.xcconfig"; sourceTree = "<group>"; };
-		95A1C19C0BBF83E1F94D174B6D9D71C8 /* Pods-NNPinyin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NNPinyin_Tests.modulemap"; sourceTree = "<group>"; };
+		0987E6E2242128449207CAC71490EBCC /* Pods_NNPinyin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NNPinyin_Example.framework; path = "Pods-NNPinyin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C037780094F72F79C3E5BED87FF7549 /* Pods-NNPinyin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNPinyin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C5552AC2548E6224B5FCAD27B8C740E /* Pods-NNPinyin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NNPinyin_Example-dummy.m"; sourceTree = "<group>"; };
+		118ECC3AEA35EE777F17F670061F13F2 /* Pods-NNPinyin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNPinyin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		16097AAB2DDE998D28E194B95035C1B5 /* Pods_NNPinyin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NNPinyin_Tests.framework; path = "Pods-NNPinyin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		224835E89B0F19B32FF91C318CE8E23C /* Pods-NNPinyin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NNPinyin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B99E2F0525B4ACE7889FC929DFABC16 /* Pods-NNPinyin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NNPinyin_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CA1DE808F645C026DEB78A298717BB4 /* NNPinyin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NNPinyin.debug.xcconfig; sourceTree = "<group>"; };
+		4432C74D95930C3F62DB1BEED62AC803 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = unicode_to_hanyu_pinyin.txt; path = NNPinyin/Assets/unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		463D1E06D3930244A4B7620F1752D6E7 /* NNPinyin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NNPinyin.modulemap; sourceTree = "<group>"; };
+		4D9D60F03070BC33CB38BFFEE242E9FB /* Pods-NNPinyin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NNPinyin_Tests.modulemap"; sourceTree = "<group>"; };
+		56CAEF590ED190D40430ADCEED51FDDC /* NNPinyin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NNPinyin-Info.plist"; sourceTree = "<group>"; };
+		57D31882AB97B6182270906D401F50F6 /* NNPinyin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NNPinyin.bundle; path = "NNPinyin-NNPinyin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C97D6BE142F80F5FE6631FECE518881 /* NNPinyinOutputFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NNPinyinOutputFormat.swift; path = NNPinyin/Classes/NNPinyinOutputFormat.swift; sourceTree = "<group>"; };
+		7E43537476F2001E6FE18FBAD24EAE43 /* Pods-NNPinyin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNPinyin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		854032A28E4451B42C4C47696442CFE2 /* ResourceBundle-NNPinyin-NNPinyin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NNPinyin-NNPinyin-Info.plist"; sourceTree = "<group>"; };
+		859E1B8048CAF4CDD362AA2B48702576 /* NNPinyin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NNPinyin.swift; path = NNPinyin/Classes/NNPinyin.swift; sourceTree = "<group>"; };
+		8741BFEA8E5D9F4942F6946371C94DDE /* NNPinyin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NNPinyin-dummy.m"; sourceTree = "<group>"; };
+		94A435BDE345D76C5C4BD41676E12EC6 /* Pods-NNPinyin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NNPinyin_Example-frameworks.sh"; sourceTree = "<group>"; };
+		94E0A6DA523D82FE97A160F095536F10 /* Pods-NNPinyin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNPinyin_Example-Info.plist"; sourceTree = "<group>"; };
+		9821930F2C4789CB1F1F5F8E2AECF493 /* String+NNPinyin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+NNPinyin.swift"; path = "NNPinyin/Classes/String+NNPinyin.swift"; sourceTree = "<group>"; };
+		997251E36001443B66D9E923F6968DF2 /* NNPinyin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NNPinyin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4EA8076208031BE1D65915E1EFCA7C4 /* Pods-NNPinyin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NNPinyin_Example-dummy.m"; sourceTree = "<group>"; };
-		A624365E8B5B154D95CD0FA4524C9212 /* Pods-NNPinyin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NNPinyin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AF69844AFE7A2F0CF1721C1A57C40080 /* Pods-NNPinyin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NNPinyin_Example-umbrella.h"; sourceTree = "<group>"; };
-		B508D11DBC01EAEA620B23D46497BFBD /* Pods-NNPinyin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNPinyin_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BE56372528860FF3522775A29525C83A /* Pods-NNPinyin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNPinyin_Example-Info.plist"; sourceTree = "<group>"; };
-		C4D69BA85CB2DA94A09F57194EEDF727 /* Pods-NNPinyin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNPinyin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C64045FE52E849E62C4ED38D4DD94987 /* NNPinyin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNPinyin-prefix.pch"; sourceTree = "<group>"; };
-		C929282F7E01C65275EAC01B8C77D2DE /* NNPinyin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NNPinyin-dummy.m"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD33F1FB102B29315923616A5AE409DF /* NNPinyinOutputFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NNPinyinOutputFormat.swift; path = NNPinyin/Classes/NNPinyinOutputFormat.swift; sourceTree = "<group>"; };
-		CD610EF0E4ED1560BFFD36DBEEF8C15D /* String+NNPinyin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+NNPinyin.swift"; path = "NNPinyin/Classes/String+NNPinyin.swift"; sourceTree = "<group>"; };
-		CF61927EBBE405116A11C05BBEFB1D59 /* NNPinyin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NNPinyin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D500C08D513AF573E94C43EEED3EDBD8 /* ResourceBundle-NNPinyin-NNPinyin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NNPinyin-NNPinyin-Info.plist"; sourceTree = "<group>"; };
-		DA6CF54764349950D4A45AE66B646E5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DC6E226E3C42B2643B89E37B62E33838 /* Pods-NNPinyin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNPinyin_Tests-Info.plist"; sourceTree = "<group>"; };
-		E334622CBCD0EB87843272746B5BAA29 /* NNPinyin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NNPinyin.xcconfig; sourceTree = "<group>"; };
-		E5F8CFF254E48761472A7AFF9B614BCB /* NNPinyin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NNPinyin.swift; path = NNPinyin/Classes/NNPinyin.swift; sourceTree = "<group>"; };
-		F502DD42C37EE7CCCF8A45B1FA198D3F /* Pods-NNPinyin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNPinyin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FED14B94EE510FCB504E27DE53910BD3 /* NNPinyin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NNPinyin.framework; path = NNPinyin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB747D38F7317AA3364FE0CE1FDB534 /* Pods-NNPinyin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NNPinyin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AF49ADCA898768CE5FC4EB9DF676165A /* Pods-NNPinyin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNPinyin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDB208F018A8D27EE22273E3DBB90C2A /* Pods-NNPinyin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NNPinyin_Example.modulemap"; sourceTree = "<group>"; };
+		C1CA7E261DE0CF389C46D5788026DA5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C9F345AAB548543F24926C19AFC8EEE1 /* Pods-NNPinyin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NNPinyin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9597981C4803E1913FF88ED05FE29F8 /* NNPinyin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NNPinyin.framework; path = NNPinyin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E056EF26007471C341505819FD732772 /* NNPinyin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNPinyin-prefix.pch"; sourceTree = "<group>"; };
+		E1A52C030B2A9F9557A2ACA4780AD21A /* Pods-NNPinyin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NNPinyin_Tests-Info.plist"; sourceTree = "<group>"; };
+		EBA704532AFAFE5AC8F16F6FF0AE6804 /* Pods-NNPinyin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNPinyin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ECF0917F0480B7729F28558B190356FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F53EFA5C08D9B245A77DEDA843C6CBB9 /* Pods-NNPinyin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NNPinyin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F70B78B8806E2B60CF8344C2566080BC /* NNPinyin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NNPinyin.release.xcconfig; sourceTree = "<group>"; };
+		F80F118DBE1760E6AA475E028DBA1B41 /* Pods-NNPinyin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NNPinyin_Tests-dummy.m"; sourceTree = "<group>"; };
+		FD85A4F50DE3F8C3D452FD6478573A91 /* NNPinyin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNPinyin-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		101C76F7D9ACED73AAE114BDF707C011 /* Frameworks */ = {
+		5969D853768D1A9FDA5EBE1E05791C3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B1DABD3F645B87DF26BA4C972ACE34B /* Foundation.framework in Frameworks */,
+				CF0CEA38A314A5E4EEDFC44E4A0AB3C1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		538F8F975BC86AB6BE8D20603DE1AA27 /* Frameworks */ = {
+		B3CA5BFD4CAFB81B90CA9BB24D8B0C9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EAB2CAC8BE903FF7342529A32FE1E47 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECE1E485C68BF81E5806A72F112F6BA6 /* Frameworks */ = {
+		BECAB1D16CD46445C9A3435F9B7B18D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8EB3112609B6D4A97BC5D3C8F801BE /* Foundation.framework in Frameworks */,
+				57B6D129EA3CBFDD89E2489ABBBB9F65 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCEB6A93D79A61E887982FAD4EBD29D9 /* Frameworks */ = {
+		D60EFBF0C9EE4E015A9AF6C7798773F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7F5B86D30540A026C0C1ACD87816D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13773EA716C57D82FE91DB3F36BBE338 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DA6CF54764349950D4A45AE66B646E5D /* LICENSE */,
-				CF61927EBBE405116A11C05BBEFB1D59 /* NNPinyin.podspec */,
-				3E39602D72A853DD2394624849DBB472 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2CDBB034A5C88CD98F9340D6E89319F1 /* NNPinyin */ = {
-			isa = PBXGroup;
-			children = (
-				E5F8CFF254E48761472A7AFF9B614BCB /* NNPinyin.swift */,
-				CD33F1FB102B29315923616A5AE409DF /* NNPinyinOutputFormat.swift */,
-				CD610EF0E4ED1560BFFD36DBEEF8C15D /* String+NNPinyin.swift */,
-				13773EA716C57D82FE91DB3F36BBE338 /* Pod */,
-				35C89C55B1962B27811E52569C590DA7 /* Resources */,
-				6737C05A7029C4CAAFA8791B0BCD4A58 /* Support Files */,
-			);
-			name = NNPinyin;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		35C89C55B1962B27811E52569C590DA7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				09528BD647D25B17CEC40DDFE5671F0C /* unicode_to_hanyu_pinyin.txt */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		3EC9857A7437C4A1F53A395F4E22A8C7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2CDBB034A5C88CD98F9340D6E89319F1 /* NNPinyin */,
+				9C9CE1BE85149D003F6640A9739CC346 /* NNPinyin */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6737C05A7029C4CAAFA8791B0BCD4A58 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				36601EB358E16524BA617E859E8DFB05 /* NNPinyin.modulemap */,
-				E334622CBCD0EB87843272746B5BAA29 /* NNPinyin.xcconfig */,
-				C929282F7E01C65275EAC01B8C77D2DE /* NNPinyin-dummy.m */,
-				14AD578AEDD3D28ABC02A3D544923B3B /* NNPinyin-Info.plist */,
-				C64045FE52E849E62C4ED38D4DD94987 /* NNPinyin-prefix.pch */,
-				3AA12192FA39AB4C67B519E93697B761 /* NNPinyin-umbrella.h */,
-				D500C08D513AF573E94C43EEED3EDBD8 /* ResourceBundle-NNPinyin-NNPinyin-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NNPinyin";
 			sourceTree = "<group>";
 		};
 		8C00D727F00AED822D5E796B101B3CE6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7B721993E288D2FA7447526D7846DA6 /* Pods-NNPinyin_Example */,
-				9EB354FF63D84E659246802C7201516C /* Pods-NNPinyin_Tests */,
+				C3837BDE88F347F16711F77606D7D52B /* Pods-NNPinyin_Example */,
+				BD99680E40CC6C619F0505EE17223B5B /* Pods-NNPinyin_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		9C9CE1BE85149D003F6640A9739CC346 /* NNPinyin */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				859E1B8048CAF4CDD362AA2B48702576 /* NNPinyin.swift */,
+				7C97D6BE142F80F5FE6631FECE518881 /* NNPinyinOutputFormat.swift */,
+				9821930F2C4789CB1F1F5F8E2AECF493 /* String+NNPinyin.swift */,
+				C90B38E544536B6170B23CB60B645A46 /* Pod */,
+				B53BD05E09CAD427F84DF2D051DC54DE /* Resources */,
+				B9570035B93926F5F31C147A02177A74 /* Support Files */,
 			);
-			name = iOS;
+			name = NNPinyin;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		9EB354FF63D84E659246802C7201516C /* Pods-NNPinyin_Tests */ = {
+		B53BD05E09CAD427F84DF2D051DC54DE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				95A1C19C0BBF83E1F94D174B6D9D71C8 /* Pods-NNPinyin_Tests.modulemap */,
-				A624365E8B5B154D95CD0FA4524C9212 /* Pods-NNPinyin_Tests-acknowledgements.markdown */,
-				C4D69BA85CB2DA94A09F57194EEDF727 /* Pods-NNPinyin_Tests-acknowledgements.plist */,
-				3C8C09178EFB313BA57E8B9400D177C2 /* Pods-NNPinyin_Tests-dummy.m */,
-				DC6E226E3C42B2643B89E37B62E33838 /* Pods-NNPinyin_Tests-Info.plist */,
-				4A147A0F2CECD7D981C03A822132FF66 /* Pods-NNPinyin_Tests-umbrella.h */,
-				F502DD42C37EE7CCCF8A45B1FA198D3F /* Pods-NNPinyin_Tests.debug.xcconfig */,
-				71CB37F614702DA246D27C47A5BADDC1 /* Pods-NNPinyin_Tests.release.xcconfig */,
+				4432C74D95930C3F62DB1BEED62AC803 /* unicode_to_hanyu_pinyin.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B9570035B93926F5F31C147A02177A74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				463D1E06D3930244A4B7620F1752D6E7 /* NNPinyin.modulemap */,
+				8741BFEA8E5D9F4942F6946371C94DDE /* NNPinyin-dummy.m */,
+				56CAEF590ED190D40430ADCEED51FDDC /* NNPinyin-Info.plist */,
+				E056EF26007471C341505819FD732772 /* NNPinyin-prefix.pch */,
+				FD85A4F50DE3F8C3D452FD6478573A91 /* NNPinyin-umbrella.h */,
+				3CA1DE808F645C026DEB78A298717BB4 /* NNPinyin.debug.xcconfig */,
+				F70B78B8806E2B60CF8344C2566080BC /* NNPinyin.release.xcconfig */,
+				854032A28E4451B42C4C47696442CFE2 /* ResourceBundle-NNPinyin-NNPinyin-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NNPinyin";
+			sourceTree = "<group>";
+		};
+		BD99680E40CC6C619F0505EE17223B5B /* Pods-NNPinyin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D9D60F03070BC33CB38BFFEE242E9FB /* Pods-NNPinyin_Tests.modulemap */,
+				224835E89B0F19B32FF91C318CE8E23C /* Pods-NNPinyin_Tests-acknowledgements.markdown */,
+				AF49ADCA898768CE5FC4EB9DF676165A /* Pods-NNPinyin_Tests-acknowledgements.plist */,
+				F80F118DBE1760E6AA475E028DBA1B41 /* Pods-NNPinyin_Tests-dummy.m */,
+				E1A52C030B2A9F9557A2ACA4780AD21A /* Pods-NNPinyin_Tests-Info.plist */,
+				AAB747D38F7317AA3364FE0CE1FDB534 /* Pods-NNPinyin_Tests-umbrella.h */,
+				118ECC3AEA35EE777F17F670061F13F2 /* Pods-NNPinyin_Tests.debug.xcconfig */,
+				EBA704532AFAFE5AC8F16F6FF0AE6804 /* Pods-NNPinyin_Tests.release.xcconfig */,
 			);
 			name = "Pods-NNPinyin_Tests";
 			path = "Target Support Files/Pods-NNPinyin_Tests";
 			sourceTree = "<group>";
 		};
-		A7B721993E288D2FA7447526D7846DA6 /* Pods-NNPinyin_Example */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				56A376382146AAFA4452D31869EA0F0F /* Pods-NNPinyin_Example.modulemap */,
-				65B544ED015C11829C3D0A44C4F16495 /* Pods-NNPinyin_Example-acknowledgements.markdown */,
-				282772D14D9ABAE374BCFA9A67B3DAFB /* Pods-NNPinyin_Example-acknowledgements.plist */,
-				A4EA8076208031BE1D65915E1EFCA7C4 /* Pods-NNPinyin_Example-dummy.m */,
-				7AB73A6F059DA4993AA46E6339F0535B /* Pods-NNPinyin_Example-frameworks.sh */,
-				BE56372528860FF3522775A29525C83A /* Pods-NNPinyin_Example-Info.plist */,
-				AF69844AFE7A2F0CF1721C1A57C40080 /* Pods-NNPinyin_Example-umbrella.h */,
-				B508D11DBC01EAEA620B23D46497BFBD /* Pods-NNPinyin_Example.debug.xcconfig */,
-				851BFDD57269CFDAADF37634EDC1395B /* Pods-NNPinyin_Example.release.xcconfig */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3837BDE88F347F16711F77606D7D52B /* Pods-NNPinyin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BDB208F018A8D27EE22273E3DBB90C2A /* Pods-NNPinyin_Example.modulemap */,
+				C9F345AAB548543F24926C19AFC8EEE1 /* Pods-NNPinyin_Example-acknowledgements.markdown */,
+				0C037780094F72F79C3E5BED87FF7549 /* Pods-NNPinyin_Example-acknowledgements.plist */,
+				0C5552AC2548E6224B5FCAD27B8C740E /* Pods-NNPinyin_Example-dummy.m */,
+				94A435BDE345D76C5C4BD41676E12EC6 /* Pods-NNPinyin_Example-frameworks.sh */,
+				94E0A6DA523D82FE97A160F095536F10 /* Pods-NNPinyin_Example-Info.plist */,
+				2B99E2F0525B4ACE7889FC929DFABC16 /* Pods-NNPinyin_Example-umbrella.h */,
+				F53EFA5C08D9B245A77DEDA843C6CBB9 /* Pods-NNPinyin_Example.debug.xcconfig */,
+				7E43537476F2001E6FE18FBAD24EAE43 /* Pods-NNPinyin_Example.release.xcconfig */,
 			);
 			name = "Pods-NNPinyin_Example";
 			path = "Target Support Files/Pods-NNPinyin_Example";
 			sourceTree = "<group>";
 		};
-		BA5C14D4786AF820174E8D9D6F3C105E /* Products */ = {
+		C90B38E544536B6170B23CB60B645A46 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				62BBC6ED08F5C8C893AB6FAB5667ACF7 /* NNPinyin.bundle */,
-				FED14B94EE510FCB504E27DE53910BD3 /* NNPinyin.framework */,
-				3B50B5E53000D44E00FCF7FBDFA1D21D /* Pods_NNPinyin_Example.framework */,
-				27F023F4EAB15A011B06ECDC4700E98B /* Pods_NNPinyin_Tests.framework */,
+				C1CA7E261DE0CF389C46D5788026DA5D /* LICENSE */,
+				997251E36001443B66D9E923F6968DF2 /* NNPinyin.podspec */,
+				ECF0917F0480B7729F28558B190356FF /* README.md */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -244,7 +235,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				3EC9857A7437C4A1F53A395F4E22A8C7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BA5C14D4786AF820174E8D9D6F3C105E /* Products */,
+				E37C43F3F691F3BBE163C2614D5ECF00 /* Products */,
 				8C00D727F00AED822D5E796B101B3CE6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -252,86 +243,78 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E37C43F3F691F3BBE163C2614D5ECF00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D31882AB97B6182270906D401F50F6 /* NNPinyin.bundle */,
+				D9597981C4803E1913FF88ED05FE29F8 /* NNPinyin.framework */,
+				0987E6E2242128449207CAC71490EBCC /* Pods_NNPinyin_Example.framework */,
+				16097AAB2DDE998D28E194B95035C1B5 /* Pods_NNPinyin_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6ED57DCC82D7376AFC72D32C5F86A7FA /* Headers */ = {
+		15034FA4FC02CEB5C16E15A246068961 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31631F68C56BB9C5141F308DED28BFA2 /* Pods-NNPinyin_Tests-umbrella.h in Headers */,
+				5541D76417FE4E3150C651B1886302CA /* Pods-NNPinyin_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75C81F2594F5CA72C09A6C507376CFF4 /* Headers */ = {
+		70EEB8D0B5737F43705CC71F8C1EFBFB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660BB3DB8AFA5DDE7CC3EF4F801BE2EB /* Pods-NNPinyin_Example-umbrella.h in Headers */,
+				CC3615218F8AEA3E4C63D5FA002D7ED1 /* Pods-NNPinyin_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5959CCC932FD7C020A77B075060B559 /* Headers */ = {
+		A621B1254FACBCD2A5602A51E19BEFCA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87EE5FC54CF08C114B99708AA63B1140 /* NNPinyin-umbrella.h in Headers */,
+				FE526A354D6A3929A150BF1104A411EA /* NNPinyin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		08AC46BC03BC2855B7D3980FD7D44BFA /* Pods-NNPinyin_Tests */ = {
+		5D6839521A060EB61E9FF1F218E467FC /* NNPinyin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 347BA1AFD03FFAF997D318B5EFBD6A2B /* Build configuration list for PBXNativeTarget "Pods-NNPinyin_Tests" */;
+			buildConfigurationList = FC6FD1157C0FA3CD1CC26348B5BC38C3 /* Build configuration list for PBXNativeTarget "NNPinyin" */;
 			buildPhases = (
-				6ED57DCC82D7376AFC72D32C5F86A7FA /* Headers */,
-				C821FD0CE8F8ED1714EEBA730E5D0A9C /* Sources */,
-				ECE1E485C68BF81E5806A72F112F6BA6 /* Frameworks */,
-				40FC0E3D373DBA611B938B7D6F97C88D /* Resources */,
+				A621B1254FACBCD2A5602A51E19BEFCA /* Headers */,
+				C9C8E17E781B75D6A986F5C23E311A4E /* Sources */,
+				B3CA5BFD4CAFB81B90CA9BB24D8B0C9E /* Frameworks */,
+				6AEA76B1AFF4EF91EB74F110ACEA0A0A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1B05F1A0367A8803E435DF327C592F27 /* PBXTargetDependency */,
+				70EE13C406AFFD8C51F65974EB9D63E5 /* PBXTargetDependency */,
 			);
-			name = "Pods-NNPinyin_Tests";
-			productName = "Pods-NNPinyin_Tests";
-			productReference = 27F023F4EAB15A011B06ECDC4700E98B /* Pods_NNPinyin_Tests.framework */;
+			name = NNPinyin;
+			productName = NNPinyin;
+			productReference = D9597981C4803E1913FF88ED05FE29F8 /* NNPinyin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		320BC14679C4C654CF634FF23EC913D4 /* Pods-NNPinyin_Example */ = {
+		929B62F555A49C9554ACF4E7B20D89FA /* NNPinyin-NNPinyin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF390817D9DDC1114F0F0D3A08471EB /* Build configuration list for PBXNativeTarget "Pods-NNPinyin_Example" */;
+			buildConfigurationList = 2EA514E162FC6EDC2D35FAE2435C356A /* Build configuration list for PBXNativeTarget "NNPinyin-NNPinyin" */;
 			buildPhases = (
-				75C81F2594F5CA72C09A6C507376CFF4 /* Headers */,
-				76C1CAABE00652DA03E1081DA2EA8403 /* Sources */,
-				FCEB6A93D79A61E887982FAD4EBD29D9 /* Frameworks */,
-				2F69BB675E582F4AB15039775765C823 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3095BE6622179CFBA7D827943E9E5AF /* PBXTargetDependency */,
-			);
-			name = "Pods-NNPinyin_Example";
-			productName = "Pods-NNPinyin_Example";
-			productReference = 3B50B5E53000D44E00FCF7FBDFA1D21D /* Pods_NNPinyin_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		78DC4278F830B237573661F30D45EE9F /* NNPinyin-NNPinyin */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B62C49DC58F88A088D80EDAAFA6DEAF2 /* Build configuration list for PBXNativeTarget "NNPinyin-NNPinyin" */;
-			buildPhases = (
-				2A1E316435365BA722094EB6FF8DF4FF /* Sources */,
-				538F8F975BC86AB6BE8D20603DE1AA27 /* Frameworks */,
-				D50AF038ABC02A562E501C8E9EDAD59B /* Resources */,
+				CA57D43C7635AA01004E96D88E5B5FA6 /* Sources */,
+				D60EFBF0C9EE4E015A9AF6C7798773F5 /* Frameworks */,
+				B204A9D6307444ED6ACC2168EE4405B2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,26 +322,45 @@
 			);
 			name = "NNPinyin-NNPinyin";
 			productName = "NNPinyin-NNPinyin";
-			productReference = 62BBC6ED08F5C8C893AB6FAB5667ACF7 /* NNPinyin.bundle */;
+			productReference = 57D31882AB97B6182270906D401F50F6 /* NNPinyin.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		BBE36B97909AB247E89B765505662042 /* NNPinyin */ = {
+		D34DE74B700F8E2F2ACB4304DCAFB180 /* Pods-NNPinyin_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46E643B3F97ED3C6D1B88AFE42B0E798 /* Build configuration list for PBXNativeTarget "NNPinyin" */;
+			buildConfigurationList = E1F6B08ACD41CD6DCDC83AB5DE05C845 /* Build configuration list for PBXNativeTarget "Pods-NNPinyin_Example" */;
 			buildPhases = (
-				C5959CCC932FD7C020A77B075060B559 /* Headers */,
-				E679FD63965AF1F0B0BA093004CF5E58 /* Sources */,
-				101C76F7D9ACED73AAE114BDF707C011 /* Frameworks */,
-				F061B0180FA8B709685E62257BA8D8DE /* Resources */,
+				70EEB8D0B5737F43705CC71F8C1EFBFB /* Headers */,
+				ABC2A926BDADC8EC8F1F60C884C95927 /* Sources */,
+				5969D853768D1A9FDA5EBE1E05791C3D /* Frameworks */,
+				79748C459DE3369518ED8C8D1ED71207 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6067C20E6528B6E398895C2E31E2FB67 /* PBXTargetDependency */,
+				469E76F36D21E6F571E99224D80EF07C /* PBXTargetDependency */,
 			);
-			name = NNPinyin;
-			productName = NNPinyin;
-			productReference = FED14B94EE510FCB504E27DE53910BD3 /* NNPinyin.framework */;
+			name = "Pods-NNPinyin_Example";
+			productName = "Pods-NNPinyin_Example";
+			productReference = 0987E6E2242128449207CAC71490EBCC /* Pods_NNPinyin_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F24CC2B20EC66F71B17AA8C330B79D65 /* Pods-NNPinyin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4B7C320E938D8575473384E5B3CF01 /* Build configuration list for PBXNativeTarget "Pods-NNPinyin_Tests" */;
+			buildPhases = (
+				15034FA4FC02CEB5C16E15A246068961 /* Headers */,
+				BC5534CA313D5AB216C9A4DEF7361A34 /* Sources */,
+				BECAB1D16CD46445C9A3435F9B7B18D4 /* Frameworks */,
+				9ADFA7A7AB537F7A300D8EF5541034D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C328B0B89727799044F9DE35EEE224D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-NNPinyin_Tests";
+			productName = "Pods-NNPinyin_Tests";
+			productReference = 16097AAB2DDE998D28E194B95035C1B5 /* Pods_NNPinyin_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -367,122 +369,347 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BA5C14D4786AF820174E8D9D6F3C105E /* Products */;
+			productRefGroup = E37C43F3F691F3BBE163C2614D5ECF00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBE36B97909AB247E89B765505662042 /* NNPinyin */,
-				78DC4278F830B237573661F30D45EE9F /* NNPinyin-NNPinyin */,
-				320BC14679C4C654CF634FF23EC913D4 /* Pods-NNPinyin_Example */,
-				08AC46BC03BC2855B7D3980FD7D44BFA /* Pods-NNPinyin_Tests */,
+				5D6839521A060EB61E9FF1F218E467FC /* NNPinyin */,
+				929B62F555A49C9554ACF4E7B20D89FA /* NNPinyin-NNPinyin */,
+				D34DE74B700F8E2F2ACB4304DCAFB180 /* Pods-NNPinyin_Example */,
+				F24CC2B20EC66F71B17AA8C330B79D65 /* Pods-NNPinyin_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2F69BB675E582F4AB15039775765C823 /* Resources */ = {
+		6AEA76B1AFF4EF91EB74F110ACEA0A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6678A86FFD6691B20A5C0572DFFDBCA8 /* NNPinyin.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79748C459DE3369518ED8C8D1ED71207 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40FC0E3D373DBA611B938B7D6F97C88D /* Resources */ = {
+		9ADFA7A7AB537F7A300D8EF5541034D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D50AF038ABC02A562E501C8E9EDAD59B /* Resources */ = {
+		B204A9D6307444ED6ACC2168EE4405B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90963BC5291DBC5FAD08114F50D605BC /* unicode_to_hanyu_pinyin.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F061B0180FA8B709685E62257BA8D8DE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F405AB0502CE06EC73ABAECEBC4FFD5C /* NNPinyin.bundle in Resources */,
+				A400232371A588724711D10FE93D5772 /* unicode_to_hanyu_pinyin.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A1E316435365BA722094EB6FF8DF4FF /* Sources */ = {
+		ABC2A926BDADC8EC8F1F60C884C95927 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443A9F5CFAE528354A27FD48D32E251F /* Pods-NNPinyin_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76C1CAABE00652DA03E1081DA2EA8403 /* Sources */ = {
+		BC5534CA313D5AB216C9A4DEF7361A34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE747CDF8112525B8EF27081AC07FFA6 /* Pods-NNPinyin_Example-dummy.m in Sources */,
+				03302E1D2A1E830125F6F331A2AA52A5 /* Pods-NNPinyin_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C821FD0CE8F8ED1714EEBA730E5D0A9C /* Sources */ = {
+		C9C8E17E781B75D6A986F5C23E311A4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BA9F67837B9D372499209FDF9CC0009 /* Pods-NNPinyin_Tests-dummy.m in Sources */,
+				03E3E868F689FDF6B7514D6511AF604E /* NNPinyin-dummy.m in Sources */,
+				C2627DEBC76E26A3137012A588781B3B /* NNPinyin.swift in Sources */,
+				F926558BC6C640B2EB315AF4A29BC768 /* NNPinyinOutputFormat.swift in Sources */,
+				8233B389ADA607EEC56FD6F08AFA4E3E /* String+NNPinyin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E679FD63965AF1F0B0BA093004CF5E58 /* Sources */ = {
+		CA57D43C7635AA01004E96D88E5B5FA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D9D1489BF91A64A71695ADE99F070B1 /* NNPinyin-dummy.m in Sources */,
-				9D4F837AF45E2EC21A0B9DC9B7FC8880 /* NNPinyin.swift in Sources */,
-				57EE32548A374F31C39BBE792F8D94E0 /* NNPinyinOutputFormat.swift in Sources */,
-				7BD41D6C48DA15B834EE755079967847 /* String+NNPinyin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B05F1A0367A8803E435DF327C592F27 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NNPinyin_Example";
-			target = 320BC14679C4C654CF634FF23EC913D4 /* Pods-NNPinyin_Example */;
-			targetProxy = 3057B486F5AB7EC97A4DCCE276EFE8A2 /* PBXContainerItemProxy */;
-		};
-		6067C20E6528B6E398895C2E31E2FB67 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NNPinyin-NNPinyin";
-			target = 78DC4278F830B237573661F30D45EE9F /* NNPinyin-NNPinyin */;
-			targetProxy = 34AE17A708248B2F409D25FD474EDE16 /* PBXContainerItemProxy */;
-		};
-		C3095BE6622179CFBA7D827943E9E5AF /* PBXTargetDependency */ = {
+		469E76F36D21E6F571E99224D80EF07C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NNPinyin;
-			target = BBE36B97909AB247E89B765505662042 /* NNPinyin */;
-			targetProxy = E4AC5929BE384C812603121C9C788DA2 /* PBXContainerItemProxy */;
+			target = 5D6839521A060EB61E9FF1F218E467FC /* NNPinyin */;
+			targetProxy = E1B564D85F0798C097CC38E59E308D38 /* PBXContainerItemProxy */;
+		};
+		70EE13C406AFFD8C51F65974EB9D63E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NNPinyin-NNPinyin";
+			target = 929B62F555A49C9554ACF4E7B20D89FA /* NNPinyin-NNPinyin */;
+			targetProxy = 2CC391AB32693A3C71483AA54AFD7AF7 /* PBXContainerItemProxy */;
+		};
+		C328B0B89727799044F9DE35EEE224D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NNPinyin_Example";
+			target = D34DE74B700F8E2F2ACB4304DCAFB180 /* Pods-NNPinyin_Example */;
+			targetProxy = 0DB0E6F1FFB5A1A3EDBD0D2E73A10647 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+		326677E6FB1599FDECDFEAA648A03EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70B78B8806E2B60CF8344C2566080BC /* NNPinyin.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NNPinyin/NNPinyin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NNPinyin/NNPinyin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NNPinyin/NNPinyin.modulemap";
+				PRODUCT_MODULE_NAME = NNPinyin;
+				PRODUCT_NAME = NNPinyin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B7711B2990C6B498FB5EDBF9511A6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53EFA5C08D9B245A77DEDA843C6CBB9 /* Pods-NNPinyin_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NNPinyin_Example/Pods-NNPinyin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNPinyin_Example/Pods-NNPinyin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		594BDA276A424E4CCD30A2CF0E3BAC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E43537476F2001E6FE18FBAD24EAE43 /* Pods-NNPinyin_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NNPinyin_Example/Pods-NNPinyin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNPinyin_Example/Pods-NNPinyin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DD2C52625184DBCD1CF190DAB2132DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA1DE808F645C026DEB78A298717BB4 /* NNPinyin.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NNPinyin/NNPinyin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NNPinyin/NNPinyin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NNPinyin/NNPinyin.modulemap";
+				PRODUCT_MODULE_NAME = NNPinyin;
+				PRODUCT_NAME = NNPinyin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		802B2A0D22E12061DC6823C59F8A62B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA704532AFAFE5AC8F16F6FF0AE6804 /* Pods-NNPinyin_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NNPinyin_Tests/Pods-NNPinyin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NNPinyin_Tests/Pods-NNPinyin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -541,176 +768,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		085856C96C914872697CAC1817A981D4 /* Release */ = {
+		C4311343E0D57AC14C0E705E36A7FE88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71CB37F614702DA246D27C47A5BADDC1 /* Pods-NNPinyin_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NNPinyin_Tests/Pods-NNPinyin_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NNPinyin_Tests/Pods-NNPinyin_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		162BDBFA751A7A51AFF65FD6D4C3DBDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E334622CBCD0EB87843272746B5BAA29 /* NNPinyin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NNPinyin";
-				INFOPLIST_FILE = "Target Support Files/NNPinyin/ResourceBundle-NNPinyin-NNPinyin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = NNPinyin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		3D7C7D0E48DB6562CA219489669AF5C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E334622CBCD0EB87843272746B5BAA29 /* NNPinyin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NNPinyin/NNPinyin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NNPinyin/NNPinyin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NNPinyin/NNPinyin.modulemap";
-				PRODUCT_MODULE_NAME = NNPinyin;
-				PRODUCT_NAME = NNPinyin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		75C1922B5FBA407A437B54A849D01DD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B508D11DBC01EAEA620B23D46497BFBD /* Pods-NNPinyin_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NNPinyin_Example/Pods-NNPinyin_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NNPinyin_Example/Pods-NNPinyin_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		893F31D07ABE3456B62D264DAC63D933 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E334622CBCD0EB87843272746B5BAA29 /* NNPinyin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NNPinyin";
-				INFOPLIST_FILE = "Target Support Files/NNPinyin/ResourceBundle-NNPinyin-NNPinyin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = NNPinyin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		93CEEC8CDF22A8D683D51E9AB2108CB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E334622CBCD0EB87843272746B5BAA29 /* NNPinyin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NNPinyin/NNPinyin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NNPinyin/NNPinyin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NNPinyin/NNPinyin.modulemap";
-				PRODUCT_MODULE_NAME = NNPinyin;
-				PRODUCT_NAME = NNPinyin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		988CF5A3C3DB5F9D4C59647EFDFF507C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F502DD42C37EE7CCCF8A45B1FA198D3F /* Pods-NNPinyin_Tests.debug.xcconfig */;
+			baseConfigurationReference = 118ECC3AEA35EE777F17F670061F13F2 /* Pods-NNPinyin_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -741,117 +806,48 @@
 			};
 			name = Debug;
 		};
-		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+		DB3DFC0E2033AE302B10278C0ABB12EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70B78B8806E2B60CF8344C2566080BC /* NNPinyin.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		ED9D4686813FF287944993893FF7D0EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 851BFDD57269CFDAADF37634EDC1395B /* Pods-NNPinyin_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NNPinyin_Example/Pods-NNPinyin_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NNPinyin_Example/Pods-NNPinyin_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NNPinyin";
+				IBSC_MODULE = NNPinyin;
+				INFOPLIST_FILE = "Target Support Files/NNPinyin/ResourceBundle-NNPinyin-NNPinyin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NNPinyin;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		F06B878101623B9C8A94FCB9006CF56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA1DE808F645C026DEB78A298717BB4 /* NNPinyin.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NNPinyin";
+				IBSC_MODULE = NNPinyin;
+				INFOPLIST_FILE = "Target Support Files/NNPinyin/ResourceBundle-NNPinyin-NNPinyin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NNPinyin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		347BA1AFD03FFAF997D318B5EFBD6A2B /* Build configuration list for PBXNativeTarget "Pods-NNPinyin_Tests" */ = {
+		2EA514E162FC6EDC2D35FAE2435C356A /* Build configuration list for PBXNativeTarget "NNPinyin-NNPinyin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				988CF5A3C3DB5F9D4C59647EFDFF507C /* Debug */,
-				085856C96C914872697CAC1817A981D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46E643B3F97ED3C6D1B88AFE42B0E798 /* Build configuration list for PBXNativeTarget "NNPinyin" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93CEEC8CDF22A8D683D51E9AB2108CB1 /* Debug */,
-				3D7C7D0E48DB6562CA219489669AF5C2 /* Release */,
+				F06B878101623B9C8A94FCB9006CF56A /* Debug */,
+				DB3DFC0E2033AE302B10278C0ABB12EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -859,26 +855,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07488D4657FB0A78086563621D425F8A /* Debug */,
-				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DF390817D9DDC1114F0F0D3A08471EB /* Build configuration list for PBXNativeTarget "Pods-NNPinyin_Example" */ = {
+		E1F6B08ACD41CD6DCDC83AB5DE05C845 /* Build configuration list for PBXNativeTarget "Pods-NNPinyin_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75C1922B5FBA407A437B54A849D01DD7 /* Debug */,
-				ED9D4686813FF287944993893FF7D0EF /* Release */,
+				3B7711B2990C6B498FB5EDBF9511A6E9 /* Debug */,
+				594BDA276A424E4CCD30A2CF0E3BAC87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B62C49DC58F88A088D80EDAAFA6DEAF2 /* Build configuration list for PBXNativeTarget "NNPinyin-NNPinyin" */ = {
+		EE4B7C320E938D8575473384E5B3CF01 /* Build configuration list for PBXNativeTarget "Pods-NNPinyin_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				162BDBFA751A7A51AFF65FD6D4C3DBDA /* Debug */,
-				893F31D07ABE3456B62D264DAC63D933 /* Release */,
+				C4311343E0D57AC14C0E705E36A7FE88 /* Debug */,
+				802B2A0D22E12061DC6823C59F8A62B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6FD1157C0FA3CD1CC26348B5BC38C3 /* Build configuration list for PBXNativeTarget "NNPinyin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD2C52625184DBCD1CF190DAB2132DA /* Debug */,
+				326677E6FB1599FDECDFEAA648A03EB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

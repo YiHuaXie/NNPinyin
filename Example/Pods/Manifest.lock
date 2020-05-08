@@ -1,5 +1,5 @@
 PODS:
-  - NNPinyin (1.0.0)
+  - NNPinyin (1.0.1)
 
 DEPENDENCIES:
   - NNPinyin (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NNPinyin: b5a5c68e619206ef509a9d8d54dd45f4cbfc40d9
+  NNPinyin: b558b11c507e8b87ae8279d8908e4057f32cb291
 
 PODFILE CHECKSUM: 5b01f47cac30f488a48e9904f2ebca6a6fbf05ef
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.1
